@@ -1,0 +1,94 @@
+p{
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.youtube-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 15px;
+}
+
+@media (max-width: 750px) {
+  .youtube-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+  .youtube-box{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .youtube-box {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.thumbnail-pic {
+  width: 100%;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  
+}
+.profile-picture {
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 2px;
+  margin-top: 5px;
+  
+}
+.video-info {
+  margin-left: 5px;
+}
+
+.video-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+.video-author {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 5px;
+}
+.video-views {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+}
+#author2 {
+  margin-top: 20px;
+}
+
+.thumbnail-row {
+  position: relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+  padding: 2px;
+  border-radius: 2px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#tgg-views {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
